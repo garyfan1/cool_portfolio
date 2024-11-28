@@ -1,0 +1,11 @@
+.blinkSpan{
+    background-color: black;
+    animation: 1s blink steps(1) infinite;
+    width: 3px;
+}
+
+@keyframes blink{
+    50%{
+        background-color: transparent;
+    }
+}
